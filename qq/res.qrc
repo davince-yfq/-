@@ -1,0 +1,50 @@
+<RCC>
+    <qresource prefix="/">
+        <file>style.qss</file>
+        <file>c1.png</file>
+        <file>c2.png</file>
+        <file>c3.png</file>
+        <file>x1.png</file>
+        <file>x2.png</file>
+        <file>x3.png</file>
+        <file>login.png</file>
+        <file>login2.png</file>
+        <file>background.jpg</file>
+        <file>toux.png</file>
+        <file>search.png</file>
+        <file>city.txt</file>
+        <file>晴.png</file>
+        <file>大雨.png</file>
+        <file>多云.png</file>
+        <file>雾霾.png</file>
+        <file>小雨.png</file>
+        <file>阴.png</file>
+        <file>PM2.5.png</file>
+        <file>空气质量.png</file>
+        <file>湿度.png</file>
+        <file>天气风级.png</file>
+        <file>中雨.png</file>
+        <file>大雨40.png</file>
+        <file>多云40.png</file>
+        <file>晴40.png</file>
+        <file>雾霾40.png</file>
+        <file>小雨40.png</file>
+        <file>阴40.png</file>
+        <file>中雨40.png</file>
+        <file>moon.png</file>
+        <file>sun.png</file>
+        <file>search1.png</file>
+        <file>quit.png</file>
+        <file>阴天40.png</file>
+        <file>阴天400.png</file>
+        <file>背景音乐 .png</file>
+        <file>背景音乐静音.png</file>
+        <file>backmusic.ogg</file>
+        <file>music.mp3</file>
+        <file>密码.png</file>
+        <file>刷新.png</file>
+        <file>用户.png</file>
+        <file>最小化.png</file>
+        <file>qing.gif</file>
+    </qresource>
+</RCC>
