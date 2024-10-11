@@ -2,11 +2,19 @@
 #define COMMENT_H
 #include <stdio.h>
 #include <string.h>
+#include <QTcpSocket>
 #include <QString>
     struct Qmsg
     {
         char buf[1022];
         short type;
+        char name[24];
+    };
+
+    struct socketlist
+    {
+        char name[24];
+        QTcpSocket *client;
     };
 
     struct rigister_node

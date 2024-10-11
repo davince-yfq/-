@@ -9,6 +9,8 @@
 #include <QMouseEvent>
 #include <QMessageBox>
 #include "weather.h"
+#include "chat.h"
+#include "comment.h"
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -28,6 +30,8 @@ public:
       void mouseMoveEvent(QMouseEvent *event) override;
       void mousePressEvent(QMouseEvent *event) override;
       QMessageBox msgbox;
+
+      QList<socketlist> sclist;
 private slots:
     void on_btn_close_clicked();
 
@@ -39,6 +43,7 @@ private slots:
 
 private:
     Weather *wea;
+    Chat *chat;
     Ui::MainWindow *ui;
 };
 #endif // MAINWINDOW_H

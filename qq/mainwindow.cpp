@@ -25,9 +25,12 @@ MainWindow::MainWindow(QWidget *parent)
     clientSocket->connectToHost("192.168.100.1",9000);
     connect(clientSocket,&QTcpSocket::connected,this,&MainWindow::onConnected);
     connect(clientSocket,&QTcpSocket::readyRead,this,&MainWindow::onreadyRead);
+    qDebug()<<clientSocket->peerPort()<<"aaa";
 
     //天气窗口初始化
     wea=new Weather;
+
+    chat = new Chat;
 }
 MainWindow::~MainWindow()
 {
@@ -78,9 +81,10 @@ void MainWindow::onreadyRead()
         msgbox.setText("注册成功！");
         msgbox.show();
     }
-    else if(msg.type==21)
+    else if(msg.type==21)//登入成功
     {
-        wea->show();
+        //wea->show();//天气窗口调用
+        chat->show();
         this->hide();
     }
     else if(msg.type==22)

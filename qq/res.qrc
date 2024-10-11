@@ -46,5 +46,21 @@
         <file>用户.png</file>
         <file>最小化.png</file>
         <file>qing.gif</file>
+        <file>light_亮.png</file>
+        <file>light_灭.png</file>
+        <file>灯光总开关.png</file>
+        <file>风扇.png</file>
+        <file>空调.png</file>
+        <file>天气.png</file>
+        <file>天气2.png</file>
+        <file>天气3.png</file>
+        <file>bk1.jpg</file>
+        <file>bk2.jpg</file>
+        <file>bk3.jpg</file>
+        <file>打开.png</file>
+        <file>关闭.png</file>
+        <file>房子.png</file>
+        <file>像素风_房子.png</file>
+        <file>bkground.png</file>
     </qresource>
 </RCC>
